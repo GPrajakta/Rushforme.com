@@ -1,0 +1,527 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<meta name="format-detection" content="telephone=no">
+
+<title>kkreative</title>
+
+
+
+<!-- SET: FAVICON -->
+
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+<!-- END: FAVICON -->
+
+
+
+<!-- SET: STYLESHEET -->
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+
+<link href="css/responsive.css" rel="stylesheet" type="text/css" media="all">
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+
+<link href="css/bxslider.css" rel="stylesheet" type="text/css" media="all">
+
+<!-- END: STYLESHEET -->
+
+
+
+<!-- SET: SCRIPTS -->
+
+	<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+
+    <script type="text/javascript" src="js/bxslider.js"></script>
+
+    <script type="text/javascript">
+
+		$(document).ready(function() {
+
+
+
+			$('#menu').click(function(){
+
+				$('.nav_bar nav ul').slideToggle('slow', function(){
+
+					if($('.nav_bar nav ul').is(':visible')){
+
+						$('#menu').addClass('active');
+
+					}else{
+
+						$('#menu').removeClass('active');
+
+					}
+
+				});
+
+			});
+
+				if ($(window).width() > 767) {
+
+					$( 'nav ul li' ).hover(
+
+							function(){
+
+								$(this).children('nav ul li ul').slideDown(200);
+
+							},
+
+							function(){
+
+								$(this).children('nav ul li ul').slideUp(500);
+
+							});
+
+							
+
+					}
+
+				if ($(window).width() <=767) {
+
+					$( '.nav_bar nav > ul > li > a' ).click(function() {
+
+						$(this).parent().find('.nav_bar nav ul li ul').slideDown('slow');
+
+						$(this).parent().siblings().find('.nav_bar nav ul li ul').slideUp('slow');
+
+					});
+
+					
+
+					}
+
+						$(window).scroll(function() {    
+
+						 if ($(document).scrollTop() >30 ) {
+
+							$("#sticky").addClass("sticky1");
+
+							}
+
+							else{
+
+								$('#sticky').removeClass('sticky1');
+
+								}
+
+						});
+
+
+
+
+
+        });
+
+	</script>
+
+<!-- END: SCRIPTS -->
+
+
+
+<!-- SET: IE SCRIPTS -->
+
+<!--[if lt IE 9]>
+
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+<![endif]-->
+
+<!-- END: IE SCRIPTS -->
+
+
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+<!-- wrapper starts -->
+
+<section class="wrapper">
+
+	<div id="sticky">
+
+            <!-- Header Starts -->
+
+            <header>    
+
+            	<a id="logo" href="index.html"><img src="images/kkreative_logo.png" alt="kkreative"></a> 
+
+                <div class="nav_header_rt">
+
+                	<ul>
+
+                    	<li><a href="careers.html">Careers</a></li>
+
+                        <li><a href="clients.html">Clients</a></li>
+
+                        <li><a href="clients.html">Clients</a></li>
+
+                    	<li><a href="contact_us.html">Global Locations</a></li>
+
+                    	<li><a href="terms.html">Terms of Use</a></li>
+
+                    </ul>
+
+                	<span class="clear">&nbsp;</span>
+
+                </div>      
+
+                <span class="clear">&nbsp;</span>     	
+
+            </header>
+
+            <section class="nav_bar nav_bar_2">
+
+                 <nav>
+
+                <a id="menu">&nbsp;</a>
+
+                <ul>
+
+                	<li><a href="index.html">Home</a></li>
+
+                    <li>
+
+                        <a href="about/about.html">About us</a>
+
+                        <ul>
+
+                            <li><a href="about/creative_thinking.html">Creative thinking</a></li>
+
+                            <!-- <li><a href="../about/leadership.html">Leadership</a></li> -->
+
+                            <li><a href="about/mission_vission.html">Our vission &amp; mission</a></li>
+
+                            <li><a href="about/values.html">Values</a></li>
+
+                        </ul>
+
+                        <span class="clear">&nbsp;</span>
+
+                    </li>
+
+                   <!-- <li>
+
+                    	<a href="industries/industries.html">Industries</a>
+
+                        <ul>
+
+                        	<li><a href="industries/automotive.html">Automotive</a></li>	
+
+                        	<li><a href="industries/banking.html">Banking-Finance</a></li>	
+
+                        	<li><a href="industries/consumers.html">Consumer Goods</a></li>	
+
+                        	<li><a href="industries/healthcare.html">Healthcare</a></li>	
+
+                        	<li><a href="industries/oil_gas.html">Oil-Gas</a></li>	
+
+                        	<li><a href="industries/utilities.html">Utilities</a></li>	
+
+                        </ul>
+
+                        <span class="clear">&nbsp;</span>
+
+                    </li>-->
+
+                    <li>
+
+                        <a href="services/services.html">Services</a>
+
+                         <ul>
+                        	<li><a href="../services/bigdata.html">Drupal</a></li>
+                        	<li><a href="../services/cloud_management.html">Magento</a></li>
+                        	<li><a href="../services/enterprise_technologies.html">E-commerce</a></li>
+                        	<li><a href="../services/oracle.html">Joomla</a></li>
+                        	<li><a href="../services/quality_assurance.html">Mobile application development</a></li>
+                        	<li><a href="../services/sap.html">Quality assurance</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li>
+
+                    	<a href="technologies/technologies.html">Technologies</a>
+
+                        <ul>
+
+                        	
+
+                        	<li><a href="technologies/bigdata.html">Big Data</a></li>
+
+                        	<li><a href="technologies/javaJ2EE.html">Java2JEE</a></li>
+
+                        	<li><a href="technologies/microsoft.html">Microsoft</a></li>
+
+                        	<li><a href="technologies/oracle_application.html">Oracle Application</a></li>
+
+                        	<!-- <li><a href="../technologies/sap_solution.html">SAP Solution</a></li> -->
+
+                        </ul>
+
+                    </li>
+
+                    <li><a href="careers.html">Careers</a></li>
+
+                        <li><a href="clients.html">Clients</a></li>
+
+</ul>	
+
+                <span class="clear">&nbsp;</span>
+
+            </nav>
+
+<div class="social">
+
+                	<ul>
+
+                    	<li><a href="#">&nbsp;</a></li>
+
+                    	<li><a href="#">&nbsp;</a></li>
+
+                    	<li><a href="#">&nbsp;</a></li>
+
+                    </ul>
+
+                    <span class="clear">&nbsp;</span>
+
+                </div>
+
+                <span class="clear">&nbsp;</span>
+
+            </section>
+
+            <!-- Header ends -->
+
+    </div>
+
+    <!-- container starts -->
+
+    <section class="container">
+
+
+
+            <!-- Maincontent Starts -->
+
+            <div class="main_content_about">
+
+                 
+
+            	<div class="about_left">
+
+                	<img src="images/banner_pic_about.jpg" alt="Innovation Is The Way You Apply Ideas" >
+
+                    <h3>about us<span>Innovation is the way you apply ideas</span></h3>
+
+                    <div class="over_view_block">
+
+                    	<h2>Clients</h2>
+
+                        <div class="clients_list">
+
+                        	<ul>
+
+                            	<!--<li><a><img src="images/clients/client_avaya.png" alt="Avaya"></a></li>-->
+
+                            	<li><a><img src="images/clients/accenture.jpeg" alt="futurz-invest@2x"></a></li>
+
+                            	<li><a><img src="images/clients/malla-solar@2x.png" alt="Adesa"></a></li>
+
+                            	<li><a><img src="images/clients/rushforme@2x.png" alt="AIM"></a></li>
+
+                            	<li><a><img src="images/clients/loanyantra@2x.png" alt="Auto Desk"></a></li>
+
+                            	<li><a><img src="images/clients/honeyland@2x1.png" alt="Credit Suisse"></a></li>
+
+                            	<li><a><img src="images/clients/dot-connect@2x.png" alt="Axis"></a></li>
+
+                            	<li><a><img src="images/clients/quick-order@2x.png" alt="Blue Cross Blue Shield"></a></li>
+
+                            	<li><a> <img src="images/clients/vazu@2x.png" alt="softy@2x"> </a></li>
+
+                            	<!--<li><a><img src="images/clients/client_cta.png" alt="Chicago Transit Authority"></a></li>
+
+                            	<li><a><img src="images/clients/client_johndeere.png" alt="John Deere"></a></li>-->
+
+                            	<li><a><img src="images/clients/prism-multimedia.png" alt="image"></a></li>
+
+                            	<!--<li><a><img src="images/clients/client_aspen.png" alt="Aspen"></a></li>
+
+                            	<li><a><img src="images/clients/client_wellmark.png" alt="Wellmark"></a></li>
+
+                            	<li><a><img src="images/clients/client_millercoors.png" alt="Miller Coors"></a></li>-->
+
+                            </ul>
+
+                            <span class="clear">&nbsp;</span>
+
+                        </div>
+
+                        
+
+                    </div>
+
+                </div>        
+
+                <div class="about_right">
+
+                    <section class="block_7">
+
+                        <img src="images/block13_pic.jpg" alt="Banking">
+
+                        <div class="block_7_overlay">
+
+                            <h3>Banking</h3>
+
+                            <p>kkreative offers exhaustive software development services to the banking ...</p><br><br>
+
+                            <p>We have a well-defined strategy in place to deliver scalable software solutions that address the security and compliance...</p>
+
+                            <a href="industries/banking.html">Read More</a>
+
+                        </div>
+
+                    </section>
+
+
+
+                    <section class="block_7">
+
+                        <img src="images/block8_pic.jpg" alt="Resources">
+
+                        <div class="block_7_overlay">
+
+                            <h3>Our Mission &amp; Vision</h3>
+
+                            <p>Business case for Enterprise Big Data Development</p>
+
+                            <p>Our mission is to provide unsurpassed service to our clients by extending competent, custom-fit and cost-effective software solutions...</p>
+
+                            <a href="about/mission_vission.html">Read More</a>
+
+                        </div>
+
+                    </section>
+
+                    <span class="clear">&nbsp;</span>
+
+                    <section class="block_9">
+
+                    	<img src="images/pic_block_leadership.png" alt="Leadership">
+
+                    	<h3>Leadership</h3>
+
+						<p>Comprises of highly experienced and professional executives</p>	
+
+                    </section>
+
+                    <section class="block_9 block_10">
+
+                    	<img src="images/pic_block_customer.png" alt="Customer Value">
+
+                    	<h3>Customer Value</h3>
+
+						<p>Business case for Enterprice Big Data Development</p>	
+
+                    </section>
+
+                </div>   
+
+            	<span class="clear">&nbsp;</span>
+
+            </div>
+
+            <!-- Maincontent ends -->
+
+            
+
+            <!-- footer starts -->
+
+            <footer>
+
+                <nav id="nav">
+
+                	<ul>
+
+                    	<li><a href="index.html">Home</a></li>
+
+                    	<li><a class="active" href="about/about.html">About us</a></li>
+
+                    	<li><a href="industries/industries.html">Industries</a></li>
+
+                    	<li><a href="services/services.html">Services</a></li>
+
+                    	<li><a href="technologies/technologies.html">Technologies</a></li>
+
+                    </ul>	
+
+                    <span class="clear">&nbsp;</span>
+
+                </nav>
+
+                <div class="social">
+
+                	<ul>
+
+                    	<li><a href="#">&nbsp;</a></li>
+
+                    	<li><a href="#">&nbsp;</a></li>
+
+                    	<li><a href="#">&nbsp;</a></li>
+
+                    </ul>
+
+                    <span class="clear">&nbsp;</span>
+
+                </div>
+
+                <span class="clear">&nbsp;</span>
+
+                <div class="welcome_block">
+
+                	<h6>Welcome to kkreative.</h6>
+
+                    <p>IT Consulting Services and Solutions<br>
+
+                    kkreative is a new generation global software company that understands business and its software requirements. We provide quality IT services and integrated solutions to the Industry.</p>
+
+                </div>
+
+            </footer>
+
+            <!-- footer ends -->
+
+            
+
+    </section>
+
+    <!-- container ends -->
+
+    
+
+</section>
+
+<!-- wrapper ends -->
+
+</body>
+
+</html>
+

@@ -185,7 +185,7 @@ include("menu.php");
                     <div class="over_view_block creers">
                     	<h2>careers / current openings </h2>
                         <p>Below are the current open positions with Rushforme. 
-                        Please view the details for more information and apply if you are interested. Alternatively, you may <small>submit you’re resume</small> 
+                        Please view the details for more information and apply if you are interested. Alternatively, you may <small>submit youâ€™re resume</small> 
                         for general consideration.</p>
                         <h5>Careers / Employee Referral Program  (Refer a Friend) </h5>
                         <p>We welcome referrals of any candidates who would make an outstanding addition to the Rushforme team. We are looking for 
@@ -197,7 +197,7 @@ include("menu.php");
                         
                         <div class="careers_form">
                         	<ul>
-                            	<li>
+                            	<li><!--Hello this is newly  edited comment!  -->
                              	   <input type="text" value="Candidate name " onclick="if(this.value=='Candidate name ')(this.value='')" 
                                    onblur="if(this.value=='')(this.value='Candidate name ')">
                                 </li>
@@ -205,8 +205,8 @@ include("menu.php");
                                 	onblur="if(this.value=='')(this.value='Candidate phone number ')">
                                 </li>
                             	<li>
-                                	<input type="text" value="Rushforme Job ID ( or type “general”)" onclick="if(this.value=='Rushforme Job ID ( or type “general”)')(this.value='')" 
-                                    onblur="if(this.value=='')(this.value='Rushforme Job ID ( or type “general”)')">
+                                	<input type="text" value="Rushforme Job ID ( or type â€œgeneralâ€)" onclick="if(this.value=='Rushforme Job ID ( or type â€œgeneralâ€)')(this.value='')" 
+                                    onblur="if(this.value=='')(this.value='Rushforme Job ID ( or type â€œgeneralâ€)')">
                                 </li>
                             	<li>
                                 	<input type="text" value="Candidate email" onclick="if(this.value=='Candidate email')(this.value='')" 
@@ -223,26 +223,26 @@ include("menu.php");
                             </ul>
                             <span class="clear">&nbsp;</span>
                             
-                            <h5>You’re information</h5>
+                            <h5>Youâ€™re information</h5>
 							<p>Are you a current Rushforme employee? 
                             	<label><span>Yes</span> <input type="radio" name="employee"></label>
                                 <label><span>NO</span> <input type="radio" name="employee"></label>
                             </p>
                         	<ul>
                             	<li>
-                             	   <input type="text" value="You’re Name" onclick="if(this.value=='You’re Name')(this.value='')" 
-                                   onblur="if(this.value=='')(this.value='You’re Name')">
+                             	   <input type="text" value="Youâ€™re Name" onclick="if(this.value=='Youâ€™re Name')(this.value='')" 
+                                   onblur="if(this.value=='')(this.value='Youâ€™re Name')">
                                 </li>
-                            	<li><input type="text" value="You’re Phone number" onclick="if(this.value=='You’re Phone number')(this.value='')" 
-                                	onblur="if(this.value=='')(this.value='You’re Phone number')">
+                            	<li><input type="text" value="Youâ€™re Phone number" onclick="if(this.value=='Youâ€™re Phone number')(this.value='')" 
+                                	onblur="if(this.value=='')(this.value='Youâ€™re Phone number')">
                                 </li>
                             	<li>
                                 	<input type="text" value="Name of Current Employer" onclick="if(this.value=='Name of Current Employer')(this.value='')" 
                                     onblur="if(this.value=='')(this.value='Name of Current Employer')">
                                 </li>
                             	<li>
-                                	<input type="text" value="You’re Email" onclick="if(this.value=='You’re Email')(this.value='')" 
-                                    onblur="if(this.value=='')(this.value='You’re Email')">
+                                	<input type="text" value="Youâ€™re Email" onclick="if(this.value=='Youâ€™re Email')(this.value='')" 
+                                    onblur="if(this.value=='')(this.value='Youâ€™re Email')">
                                 </li>
                                	<li class="submit_prnt"><input type="submit" value="SUBMIT" name="submit"><span class="clear">&nbsp;</span></li> 
                                

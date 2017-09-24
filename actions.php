@@ -29,7 +29,7 @@ $fbuser = $facebook->getUser();
 		    $user_profile = $facebook->api('/me?fields=id,name,email' );
 		//	print_r($user_profile);
 			
-		}
+		}//Hello this is a new comment from veera.
 		catch (Exception $e) {
 			echo $e->getMessage();
 			exit();
